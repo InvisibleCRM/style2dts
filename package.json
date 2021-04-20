@@ -1,0 +1,52 @@
+{
+  "name": "@revenuegrid/style2dts",
+  "version": "1.0.0",
+  "description": "Webpack plugin for automatic d.ts files generation for style source files.",
+  "main": "./dist/index.js",
+  "typing": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InvisibleCRM/style2dts.git"
+  },
+  "keywords": [
+    "webpack",
+    "d.ts",
+    "style",
+    "css",
+    "less"
+  ],
+  "author": "Vyacheslav Putsenko <vyacheslav.putsenko@revenuegrid.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InvisibleCRM/style2dts/issues"
+  },
+  "homepage": "https://github.com/InvisibleCRM/style2dts#readme",
+  "dependencies": {
+    "camelcase": "^6.2.0",
+    "css-modules-loader-core": "^1.1.0",
+    "glob": "^7.1.6",
+    "less": "^4.1.1",
+    "less-plugin-css-modules": "0.0.3",
+    "less-plugin-npm-import": "^2.1.0",
+    "param-case": "^3.0.4",
+    "reserved-words": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/css-modules-loader-core": "^1.1.0",
+    "@types/glob": "^7.1.3",
+    "@types/less": "^3.0.2",
+    "@types/reserved-words": "^0.1.0",
+    "@types/webpack": "^5.28.0",
+    "typescript": "^4.3.2"
+  },
+  "engines": {
+    "node": ">= 12"
+  }
+}
